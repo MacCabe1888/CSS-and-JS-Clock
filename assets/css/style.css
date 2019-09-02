@@ -43,4 +43,17 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: right;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0, 3, 0.5, 1);
+}
+
+.hour-hand {
+  width: 35%;
+  left: 15%;
+}
+
+.second-hand {
+  height: 4px;
 }
